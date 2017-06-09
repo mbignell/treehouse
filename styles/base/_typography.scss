@@ -1,0 +1,21 @@
+// Ems to pixels
+
+$base__font-size: 16px;
+
+@function em($target, $context: $base__font-size) {
+  @return ($target / $context) * 1em;
+}
+
+// Font stack
+
+$font-stack : Helvetica, sans-serif;
+
+// Font size variables
+
+$font-size--large   : em(16px);
+$font-size--small   : em(12px);
+
+// Line height variables
+
+$line-height--large : em(19px);
+$line-height--small : em(15px);

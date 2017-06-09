@@ -1,0 +1,16 @@
+// Colors 
+$black : #384047;
+$blackest : #000000;
+$white : #ffffff;
+$gray--medium : #8D9AA5;
+$gray--light  : #C6CCD2;
+$gray--lightest : #EDEFF0;
+
+// Colors by use
+$color--background      : $gray--lightest;
+$color--loading         : $gray--light;
+$color--border          : $color--background;
+$color--shadow          : $gray--light;
+$color--card-background : $white;
+$color--text            : $black;
+$color--text--secondary : $gray--medium;
